@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import pokemons from "./pokemons";
 
 function getRandomName() {
-  return pokemons[Math.floor(Math.random()) * pokemons.length];
+  return pokemons[Math.floor(Math.random() * pokemons.length)];
 }
 
 export default function PokeNameValidator() {
